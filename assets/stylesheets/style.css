@@ -56,10 +56,10 @@ section {
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 	.menu li {
 		text-align: center;
-		padding: 15px;
+		padding: 10px;
 	}
 	img.partner-logo {
 		width: auto;
