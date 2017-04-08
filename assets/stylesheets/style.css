@@ -1,0 +1,149 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	color: rgb(51,51,51);
+	font-size: 1.5em;
+	margin: 0 auto;
+	margin-top: 70px;
+	background-color: white;
+}
+
+a:link, a:visited, a:hover, a:active {
+	color: rgb(122,0,0);
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+	text-align: justify;
+}
+
+section {
+	padding: 10px;
+}
+
+.menu {
+	text-transform: uppercase;
+	font-size: 1em;
+}
+
+.menu ul {
+	list-style-type: none;
+}
+
+@media (min-width: 768px) {
+	.menu li {
+		display: inline-block;
+		margin: 10px;
+	}
+}
+
+@media (max-width: 768px) {
+	.menu li {
+		text-align: center;
+		padding: 15px;
+	}
+}
+
+.navbar-brand {
+	padding: 0px;
+}
+
+.navbar-default {
+	padding-top: 5px;
+	padding-bottom: 15px;
+	background-color: white;
+	border: 0 none;
+}
+
+.navbar-default .navbar-collapse {
+	border-color: white;
+}
+
+.navbar-brand {
+	padding: 0px;
+}
+
+.logo {
+	margin-left: 10px;
+	width: 75%;
+}
+
+.section-container {
+	background-color: rgba(122,222,255,0.1);
+	padding: 0 25px;
+	border-radius: 5px;
+}
+
+.c-two-percent {
+	background-color: rgba(122,0,0,0.2);
+}
+
+.c-footer {
+	background-color: rgba(51,51,51,0.1);
+	padding: 10px 0;
+}
+
+.owl-theme {
+	border: 1px solid rgba(51,51,51,0.1);
+}
+
+.text-align-right {
+	text-align: right;
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+.row-centered {
+	text-align: center;
+}
+
+.section-detail {
+    display: none;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    border: 0 none;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
+}
