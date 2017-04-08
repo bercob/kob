@@ -61,6 +61,10 @@ section {
 		text-align: center;
 		padding: 15px;
 	}
+	img.partner-logo {
+		width: auto;
+		height: 50px;
+	}
 }
 
 .navbar-brand {
@@ -103,7 +107,7 @@ section {
 
 .c-footer {
 	background-color: rgba(51,51,51,0.1);
-	padding: 10px 0;
+	padding: 10px;
 }
 
 .owl-theme {
