@@ -15,6 +15,7 @@ $(document).ready(function() {
 
   $('span.detail-up').click(function () {
 		slideToggleDetail($(this).parent().parent().parent().find('span.detail-down'), $(this).parent().parent('.section-detail'));
+    document.getElementById($(this).data('anchor')).scrollIntoView();
 	})
 
   $('.navbar-nav li a').click(function() {
