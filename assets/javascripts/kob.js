@@ -10,12 +10,11 @@ $(document).ready(function() {
 	});
 
 	$('span.detail-down').click(function () {
-		slideToggleDetail($(this), $('#' + $(this).data('section-detail')));
+		slideToggleDetail($(this), $('#' + $(this).data('section-detail')), document.getElementById($(this).data('anchor')));
 	})
 
   $('span.detail-up').click(function () {
-		document.getElementById($(this).data('anchor')).scrollIntoView();
-    slideToggleDetail($('#' + $(this).data('detail-down')), $('#' + $(this).data('section-detail')));
+		slideToggleDetail($('#' + $(this).data('detail-down')), $('#' + $(this).data('section-detail')), document.getElementById($(this).data('anchor')));
 	})
 
   $('.navbar-nav li a').click(function() {
@@ -24,12 +23,13 @@ $(document).ready(function() {
 
 })
 
-function slideToggleDetail(button, detail) {
+function slideToggleDetail(button, detail, anchor) {
 	if (detail.is(':visible')) {
-		button.removeClass('glyphicon-chevron-up');
+		anchor.scrollIntoView();
+    button.removeClass('glyphicon-chevron-up');
 		button.addClass('glyphicon-chevron-down');
 	} else {
-		button.removeClass('glyphicon-chevron-down');
+	  button.removeClass('glyphicon-chevron-down');
 		button.addClass('glyphicon-chevron-up');
 	}  		
 	detail.slideToggle();
