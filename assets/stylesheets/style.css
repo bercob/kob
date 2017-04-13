@@ -220,3 +220,6 @@ img.program-logo {
 	margin-top: 20px;
 }
 
+li.sub {
+	list-style-type: none;
+}
