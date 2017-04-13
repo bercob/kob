@@ -82,6 +82,18 @@ img.flag {
 	text-align: right;
 }
 
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.flex-item {
+	width: 150px;
+}
+
 @media (min-width: 768px) {
 	.menu li {
 		display: inline-block;
@@ -106,6 +118,9 @@ img.flag {
 	}
 	img.flag {
 		width: 25px;
+	}
+	.flex-item {
+		width: 100px;
 	}
 }
 
@@ -212,6 +227,10 @@ img.program-logo {
 	border: 1px solid rgba(51,51,51,0.1);
 }
 
+img.lightbox-img {
+	margin: 5px;
+	border: 1px solid rgba(51,51,51,0.1);
+}
 .margin-bottom {
 	margin-bottom: 10px;
 }
