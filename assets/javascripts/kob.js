@@ -5,8 +5,9 @@ $(document).ready(function() {
     loop: true,
     margin: 10,
     autoplay: true,
-    autoplayTimeout: 3000,
-    autoplayHoverPause: true
+    autoplayTimeout: 5000,
+    autoplayHoverPause: true,
+    dots: false
 	});
 
 	$('span.detail-down').click(function () {

@@ -3,7 +3,7 @@ body {
 	color: rgb(51,51,51);
 	font-size: 1.5em;
 	margin: 0 auto;
-	margin-top: 100px;
+	margin-top: 120px;
 	background-color: white;
 }
 
@@ -48,6 +48,10 @@ h4 {
 	margin-top: 20px;
 }
 
+#menu-container ul {
+	padding: 0;
+}
+
 .menu a:link, a:visited, a:hover, a:active {
 	color: rgb(0,0,0);
 }
@@ -61,21 +65,47 @@ h4 {
 	list-style-type: none;
 }
 
+.logo {
+	min-width: 80px;
+}
+
+#b-hamburger {
+	margin-top: 20px;
+}
+
+img.flag {
+	width: 40px;
+	height: auto;
+}
+
+.flags {
+	text-align: right;
+}
+
 @media (min-width: 768px) {
 	.menu li {
 		display: inline-block;
-		margin: 10px;
+		margin: 9px;
 	}
 }
 
 @media (max-width: 767px) {
 	.menu li {
 		text-align: center;
-		padding: 10px;
+		padding: 8px;
 	}
 	img.partner-logo {
 		width: auto;
 		height: 50px;
+	}
+	.logo {
+		width: 80px;
+	}
+	body {
+		margin-top: 90px;
+	}
+	img.flag {
+		width: 25px;
 	}
 }
 
@@ -99,17 +129,19 @@ h4 {
 	padding: 0px;
 }
 
-.logo {
-	margin-left: 10px;
-	width: 75%;
+.navbar-header {
+	float: right;
 }
-
 .section-container {
 	background-color: rgba(122,222,255,0.1);
 	padding: 0 25px;
 	border-radius: 5px;
 }
 
+#s-slider {
+	padding-left: 0;
+	padding-right: 0;
+}
 .c-two-percent {
 	background-color: rgba(122,222,255,0.8);
 }
@@ -187,3 +219,4 @@ img.program-logo {
 .margin-top {
 	margin-top: 20px;
 }
+
