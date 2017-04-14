@@ -22,6 +22,12 @@ $(document).ready(function() {
     $('.navbar-collapse').collapse('hide');
   })
 
+  $('a.gallery-link').click(function(e) {
+    $('#' + $(this).data('gallery')).click();
+    
+    e.preventDefault();
+  })
+
 })
 
 function slideToggleDetail(button, detail, anchor) {

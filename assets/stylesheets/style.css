@@ -52,7 +52,7 @@ h4 {
 	padding: 0;
 }
 
-.menu a:link, a:visited, a:hover, a:active {
+.menu a:link, .menu a:visited, .menu a:hover, .menu a:active {
 	color: rgb(0,0,0);
 }
 
@@ -87,7 +87,7 @@ img.flag {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-around;
-	align-items: center;
+	align-items: flex-start;
 }
 
 .flex-item {
@@ -148,9 +148,9 @@ img.flag {
 	float: right;
 }
 .section-container {
-	background-color: rgba(122,222,255,0.1);
 	padding: 0 25px;
 	border-radius: 5px;
+	border: 1px solid rgba(192,126,11,1);
 }
 
 #s-slider {
@@ -168,10 +168,6 @@ img.flag {
 .c-footer {
 	background-color: rgba(51,51,51,0.1);
 	padding: 10px;
-}
-
-.owl-theme {
-	border: 1px solid rgba(51,51,51,0.1);
 }
 
 .text-align-right {
