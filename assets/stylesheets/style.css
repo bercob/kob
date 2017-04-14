@@ -94,6 +94,30 @@ img.flag {
 	width: 150px;
 }
 
+.navbar-brand {
+	padding: 0px;
+}
+
+.navbar-default {
+	padding-top: 5px;
+	padding-bottom: 25px;
+	background-color: white;
+	border: 0 none;
+	margin-bottom: 10px;
+}
+
+.navbar-default .navbar-collapse {
+	border-color: white;
+}
+
+.navbar-brand {
+	padding: 0px;
+}
+
+.navbar-header {
+	float: right;
+}
+
 @media (min-width: 768px) {
 	.menu li {
 		display: inline-block;
@@ -114,7 +138,7 @@ img.flag {
 		width: 80px;
 	}
 	body {
-		margin-top: 90px;
+		margin-top: 93px;
 	}
 	img.flag {
 		width: 25px;
@@ -122,43 +146,20 @@ img.flag {
 	.flex-item {
 		width: 100px;
 	}
+	.navbar-default {
+		padding-bottom: 15px;
+	}
 }
 
-.navbar-brand {
-	padding: 0px;
-}
-
-.navbar-default {
-	padding-top: 5px;
-	padding-bottom: 15px;
-	background-color: white;
-	border: 0 none;
-	margin-bottom: 10px;
-}
-
-.navbar-default .navbar-collapse {
-	border-color: white;
-}
-
-.navbar-brand {
-	padding: 0px;
-}
-
-.navbar-header {
-	float: right;
-}
 .section-container {
 	padding: 0 25px;
-	border-radius: 5px;
-	border: 1px solid rgba(192,126,11,1);
+	border-bottom: 1px dotted rgba(51,51,51,0.3);
+	padding-bottom: 10px;
 }
 
 #s-slider {
 	padding-left: 0;
 	padding-right: 0;
-}
-.c-two-percent {
-	border: 1px solid rgb(122,0,0);
 }
 
 .c-partners {
@@ -168,6 +169,7 @@ img.flag {
 .c-footer {
 	background-color: rgba(51,51,51,0.1);
 	padding: 10px;
+	border: 0 none;
 }
 
 .text-align-right {
@@ -238,3 +240,4 @@ img.lightbox-img {
 li.sub {
 	list-style-type: none;
 }
+
