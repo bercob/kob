@@ -244,3 +244,7 @@ img.lightbox-img {
 li.sub {
 	list-style-type: none;
 }
+
+li.nowrap {
+	white-space: nowrap;
+}
