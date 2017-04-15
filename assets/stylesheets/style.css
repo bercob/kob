@@ -125,7 +125,7 @@ img.flag {
 @media (min-width: 768px) {
 	.menu li {
 		display: inline-block;
-		margin: 9px;
+		margin: 6px;
 	}
 }
 
