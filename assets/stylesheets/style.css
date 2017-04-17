@@ -244,3 +244,20 @@ img.lightbox-img {
 li.sub {
 	list-style-type: none;
 }
+
+.responsive-reserved-height {
+	position: relative;
+	height: 0;
+	overflow: hidden;
+}
+
+.ratio-30-perc {
+	padding-bottom: 30%;
+}
+
+.responsive-reserved-height img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
