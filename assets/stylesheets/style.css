@@ -86,6 +86,15 @@ img.flag {
 	text-align: right;
 }
 
+.social-networks {
+	float: left; 
+	margin-left: 50px;
+}
+
+img.social-network-logo {
+	margin-right: 3px;
+}
+
 .flex-container {
 	display: flex;
 	flex-direction: row;
