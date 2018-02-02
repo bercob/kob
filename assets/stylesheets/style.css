@@ -69,6 +69,12 @@ h4 {
 	list-style-type: none;
 }
 
+.menu .two-percent a:link, .menu .two-percent a:visited, .menu .two-percent a:hover, .menu .two-percent a:active {
+	font-weight: bold;
+	font-size: 1.5em;
+	color: rgb(122,0,0);
+}
+
 .logo {
 	min-width: 80px;
 }
@@ -177,6 +183,10 @@ img.social-network-logo {
 
 .c-partners {
 	background-color: white;
+}
+
+.section-container.c-two-percent h2 {
+	color: rgb(122,0,0);
 }
 
 .c-footer {
