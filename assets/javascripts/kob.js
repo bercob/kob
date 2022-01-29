@@ -28,6 +28,7 @@ $(document).ready(function() {
 	})
 
 	$('#detail-down-two-percent').click();
+	$('#detail-down-contact').click();
 })
 
 function slideToggleDetail(button, detail, anchor) {
